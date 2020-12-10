@@ -1,0 +1,25 @@
+.top-bar-label {
+  border: 2px solid black;
+  cursor: pointer;
+  height: 6rem;
+  font-size: 2rem;
+  padding: 2rem;
+  flex-grow: 1;
+
+  vertical-align: middle;
+  text-align: center;
+}
+
+.top-bar-label-selected {
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: gold;
+  height: 6rem;
+  font-size: 2rem;
+  padding: 2rem;
+  flex-grow: 1;
+
+
+  vertical-align: middle;
+  text-align: center;
+}
