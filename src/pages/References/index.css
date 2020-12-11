@@ -1,0 +1,10 @@
+.references-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.references-libraries-title {
+  font-size: 4rem;
+}

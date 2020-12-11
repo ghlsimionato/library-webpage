@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Livraria Cultura", "address": "Rua da Cultura, 594" },
+  { "id": 2, "name": "Saraiva", "address": "Rua Saraiva, 9557" },
+  { "id": 3, "name": "Amazon", "address": "Avenida Amazon, 123" }
+]
