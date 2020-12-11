@@ -7,12 +7,10 @@
   },
   {
     "id": 2,
-    "title": "congue eget",
-    "description": "orci eget orci vehicula condimentum"
+    "title": "congue eget"
   },
   {
     "id": 3,
-    "title": "penatibus et magnis",
     "description": "eu orci mauris lacinia sapien"
   },
   {
@@ -38,7 +36,6 @@
   },
   {
     "id": 8,
-    "title": "eget elit",
     "description": "quis justo maecenas rhoncus aliquam"
   },
   {

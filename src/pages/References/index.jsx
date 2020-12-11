@@ -1,6 +1,9 @@
 import React from 'react';
 
 import ReferenceItem from './components/ReferenceItem';
+import LibraryItem from './components/LibraryItem';
+
+import libraries from '../../db/libraries.json';
 import references from '../../db/references.json';
 
 import './index.css';
@@ -13,8 +16,18 @@ const buildReferences = references => references.map(ref => (
   />
 ));
 
+const buildLibraries = libraries => libraries.map(lib => (
+  <LibraryItem
+    key={lib.id}
+    name={lib.name}
+    address={lib.address}
+  />
+))
+
 const References = () => {
   const referenceElements = buildReferences(references);
+  const libraryElements = buildLibraries(libraries);
+
   return (
     <div className="references-page-container">
       <div>
@@ -23,7 +36,7 @@ const References = () => {
 
       <div>
         <span className="references-libraries-title">Libraries</span>
-        {/* Inserir elementos "libraries" aqui */}
+        {libraryElements}
       </div>
     </div>
   );
